@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(143, 206, 240);
+  }
+  
+  .card {
+    background-color: rgb(253, 252, 253);
+    max-width: 400px;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px gray;
+    transition: transform 0.3s, background-color 0.3s ease
+  }
+  
+  .card:hover {
+    background-color: rgb(62, 125, 166);
+    transform: scale(1.1);
+  }
+  
+  h1{
+    color: pink;
+  }
+  
+  h1::after {
+    content: " (T-T)";
+  }
+  
+  .message {
+    font-size: 1.2em;
+    color: darkgray;
+    margin-bottom: 20px;
+  }
+  
+  .card-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card-links a {
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: pink;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-links a:hover {
+    background-color: rgb(255, 117, 38);
+  }
+  
+  .card-links a:active {
+    background-color: pink;
+  }
+  
+  .card-links a:focus {
+    outline: 2px solid red;
+  }
+  
+  .card-links a:visited {
+    color: crimson;
+  }
+  section {
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    display:none;
+  }
+  
+  section:hover{
+    transform: skewX(10deg);
+  }
+  section:target{
+    display:block;
+  }
